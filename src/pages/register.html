@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie empresas</title>
+    <link rel="stylesheet" href="/src/styles/globalStyle.css">
+    <link rel="stylesheet" href="/src/styles/register.css">
+    
+</head>
+<body>
+    <header>
+        <div id="header_div_logo"><img src="/src/assets/Ellipse 1.png" alt="elipse1">
+        <a href="/src/index.html">
+            <h1 id="kenzie_homepage">Kenzie Empresas</h1></a>
+        </div>
+        <div id="header_div_button">
+            <a href="/src/pages/login.html"> 
+                <button id="btn_login" class="button_header">Login</button></a>
+                <a href="/src/pages/register.html"> 
+            <button id="btn_register" class="button_header">Cadastro</button></a>
+            <img src="/src/assets/hamburguer.svg.png" alt="hamburguer" id="hamburguerIMG">
+        </div>
+    </header>
+    <main>
+        <section id="register_form">
+            <label for="register_form">Cadastre-se</label>
+        <form action="">
+            <input type="text" name="username" class = "inputRegister" id="name_input" placeholder="Digite seu nome">
+            <input type="email" name="email" class = "inputRegister" id="email_input"placeholder="Digite seu email">
+            <input type="password" name="password"  class = "inputRegister"id="_input"placeholder="Digite sua senha">
+        </form>
+            <button type="button" id="btn_confirmCadastro">Cadastre-se</button>
+            <a href="/src/index.html">
+                <button type="submit" id="btn_home">Retornar</button></a>
+           
+        </section>
+    </main>    
+</body>
+<script type="module" src="/src/scripts//register.js"></script>
+</html>
+<div><a href="/src/pages/userDashboard.html"><button id="login_btn_page">Login</button></a>

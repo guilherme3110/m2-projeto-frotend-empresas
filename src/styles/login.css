@@ -1,0 +1,99 @@
+main{
+    background-image: url(/src/Assets/imgHome2.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#register_form{
+    background-color: #FFFFFF
+    ;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    position: absolute;
+    top: 20%;
+    width: 40%;
+    gap: 1rem;
+}
+#hamburguerIMG{
+    display: none;
+}
+input{
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    width: 100%;
+    padding: 3%;
+    border: grey ;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+    font-size: var(--title-3);
+    }
+    #login_btn_page{
+        background-color: var(--brand-color-1);
+        color: white;
+        font-weight: bold;
+        padding: 2%;
+        width: 100%;
+        font-size: var(--title-3);
+        margin-bottom: 1rem;
+    }
+    #btn_cadastre{
+        border-color: var(--brand-color-1);
+        background-color: white;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 2%;
+        color: var(--brand-color-1);
+        font-size: var(--title-3);
+    }
+    @media(max-width: 900px){
+        header{
+            width: 100%;
+            flex-direction: row;
+            padding: 0px;
+            position: relative;
+        }
+        #header_div_logo{
+            width: 100%;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        #hamburguerIMG{
+            display: flex;
+            margin: 3%;
+            position: absolute;
+            right: 5%;
+            top: 5%;
+        }
+        #btn_login {
+            display: none;
+        }
+        #btn_register{
+            display: none;
+        }
+        #register_form{
+            padding: 1%;
+            width: 100%;
+            align-items: center;
+        }
+        #kenzie_homepage{
+            font-size: var(--title-4);
+        }
+        input{
+            width: 90%;
+        }
+        #login_btn_page{
+            width: 100%;
+        }
+        #a_register{
+            width: 100%;
+        }
+    }

@@ -1,0 +1,97 @@
+#hamburguerIMG{
+    display: none;
+}
+main{
+    display: flex;
+    padding: 2% 10% 1% 10%;
+    justify-content: space-between;
+}
+#main_section_empresas{
+    width: 100%;
+    margin: 0% 0% 0% 5%;
+}
+#list_empresas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#header_list_empresas{
+width: 100%;
+background-color: var(--brand-color-1);
+color: white;
+font-size: var(--title-4);
+display: flex;
+justify-content: space-around;
+padding: 2%;
+}
+#li_empresa{
+    padding: 2%;;
+    display: flex;
+    flex-direction: column;
+    border-color: var(--brand-color-1);
+    border-bottom: 1px;
+    background-color: white;margin: 1%;
+    
+}
+#list_empresas{
+    background-color: grey;
+    display: flex;
+    width: 100%;
+}
+@media(max-width: 900px){
+    header{
+        width: 100%;
+        flex-direction: row;
+        padding: 0px;
+        position: relative;
+    }
+    #header_div_logo{
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    #hamburguerIMG{
+        display: flex;
+        margin: 3%;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    }
+    #btn_login {
+        display: none;
+    }
+    #btn_register{
+        display: none;
+    }
+    #imgHome{
+        display: none;
+    }
+    #kenzie_homepage{
+        font-size: var(--title-4);
+    }
+    #list_empresas{
+        margin-top: 5%;
+        overflow-x: auto;
+        height: 50%;
+        width: 100%;
+        flex-direction: row;
+    }
+    #main_section_empresas {
+         width: 100%; 
+         margin: 3%;
+         padding: 3%;
+    }
+    #li_empresa{
+        height: 90%;
+        padding: 5%;
+    }
+    #header_list_empresas{
+        padding: 5%;
+        border-bottom: 2%;
+    }
+}

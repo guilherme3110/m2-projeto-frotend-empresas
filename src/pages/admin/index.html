@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/globalStyles.css"/>
+    <link rel="stylesheet" href="../../styles/buttons.css"/>
+    <link rel="stylesheet" href="../../styles/inputs.css"/>
+    <link rel="stylesheet" href="../../styles/header.css"/>
+    <link rel="stylesheet" href="../../styles/toast.css"/>
+    <link rel="stylesheet" href="../../styles/modal.css"/>
+    <link rel="stylesheet" href="../../styles/media.css"/>
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Kenzie Empresas - Admin Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-div-container">
+        <div id="div-header-logo">
+          <div id="div-logo">   </div>
+          <img src="../../img/Kenzie Empresas.svg" id="logo" alt="Logo Kenzie">
+        </div>
+        <nav id="nav">
+          <div id="hamburger" class="btn-mobile">   </div>
+          <ul id="menu">
+            <li>
+              <button id="button-logout" class="button-default button-style-100">
+                Logout
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section-departments">
+        <div class="div-top-section">
+          <h2>
+            Departamentos
+          </h2>
+          <select class="select-menu" name="company-list" id="company-list">
+        </select>
+          <button id="createDepartmentButton" class="button-default button-style-200">
+            + Criar
+          </button>
+        </div>
+        <div class="divCardsDepartment">
+          <ul id="ul-departmentList" class="department-cards-list">   </ul>
+        </div>
+      </section>
+
+      <section class="section-users">
+        <div class="div-top-section-users">
+          <h2>
+            Usuários cadastrados
+          </h2>
+        </div>
+        <div>
+          <ul id="ul-userList" class="department-cards-list">   </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>

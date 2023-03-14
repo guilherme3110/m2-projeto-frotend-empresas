@@ -1,0 +1,99 @@
+@media(max-width: 600px){
+
+  #menu{
+    position: relative;
+    top: 0px;
+    width: 90%;
+    margin-bottom: 200px;
+  }
+
+  #header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../img/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    margin-top: 0px;
+  }
+  
+  #form-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    margin-top: 30px;
+  
+  }
+}
+
+@media(min-width: 601px){
+  #header {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../img/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  
+  }
+  
+  #form-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 15px;
+    width: 506px;
+    background: rgba(255, 255, 255, 0.95);
+    margin: auto;
+  
+  }
+  
+  .pTextForm {
+    width: 350px;
+    height: 22px;
+    left: 509px;
+    top: 333px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-400);
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .TitleForm {
+    height: 60px;
+    left: 509px;
+    top: 262px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--color-400);
+    font-family: 'Inter', sans-serif;
+  }
+  
+  option{
+    background-color: var(--color-100);
+    color: var(--color-500);
+  }
+}

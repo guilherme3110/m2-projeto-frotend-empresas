@@ -1,0 +1,36 @@
+#header-div-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 70px;
+}
+
+#div-header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10.47px;
+}
+
+#logo {
+  padding: 17px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#div-logo {
+  width: 11.17px;
+  height: 11.17px;
+  background: rgba(66, 0, 255, 0.5);
+  border-radius: 50%;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}

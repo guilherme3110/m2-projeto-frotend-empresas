@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/globalStyles.css"/>
+    <link rel="stylesheet" href="../../styles/buttons.css"/>
+    <link rel="stylesheet" href="../../styles/inputs.css"/>
+    <link rel="stylesheet" href="../../styles/header.css"/>
+    <link rel="stylesheet" href="../../styles/toast.css"/>
+    <link rel="stylesheet" href="../../styles/media.css"/>
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Kenzie Empresas - Register</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-div-container">
+        <div id="div-header-logo">
+          <div id="div-logo">   </div>
+          <img src="../../img/Kenzie Empresas.svg" id="logo" alt="Logo Kenzie">
+        </div>
+        <nav id="nav">
+          <div id="hamburger" class="btn-mobile">   </div>
+          <ul id="menu">
+            <li>
+              <button id="button-to-home" class="button-default button-style-100">
+                Home
+              </button>
+            </li>
+            <li>
+              <button id="button-to-login" class="button-default button-style-200">
+                Login
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <form id="form-register">
+        <h2 class="TitleForm">
+          Cadastre-se
+        </h2>
+        <!-- <p class="pTextForm">
+          Preencha os campos para realizar login
+        </p> -->
+
+        <input type="text" name="username" class="input-default" placeholder="Seu nome" required/>
+        <input type="email" name="email" class="input-default" placeholder="Seu e-mail" required/>
+        <input type="password" name="password" class="input-default" placeholder="Sua senha" required/>
+
+        <select class="input-default" name="professional_level" id="profission-rank">
+          
+          <option value="">
+            Nível profissional
+          </option>
+          <option value="estágio">
+            Estágio
+          </option>
+          <option value="júnior">
+            Júnior
+          </option>
+          <option value="pleno">
+            Pleno
+          </option>
+          <option value="sênior">
+            Sênior
+          </option>
+        </select>
+
+        <button type="submit" class="big-button button-default button-style-200">
+          Cadastre-se
+        </button>
+        <button id="return-login" type="button" class="big-button button-default button-style-100">
+          Retornar
+        </button>
+      </form>
+    </main>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>

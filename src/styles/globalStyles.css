@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Inter', sans-serif; */
+  }
+
+:root {
+    --color-100: #4200ff;
+    --color-200: #4ba036;
+    --color-300: #ce4646;
+    --color-400: #000000;
+    --color-500: #ffffff;
+    --font-weight01: bold;
+    --font-weight02: normal;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    letter-spacing: 0%;
+}

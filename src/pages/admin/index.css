@@ -1,0 +1,131 @@
+#header {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  margin: 0 auto;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.section-departments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 50%;
+  margin-bottom: 69px;
+}
+
+.div-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.department-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 92px;
+  width: 1182px;
+  height: 385px;
+  background: #f8f8f8;
+  padding: 34px 56px;
+  overflow-y: auto;
+}
+
+.li-department-card {
+  width: 489px;
+  height: 196px;
+  padding: 20px;
+  background: var(--color-500);
+  border-bottom: 1px solid var(--color-100);
+  list-style: none;
+}
+.div-about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 43px;
+  gap: 8px;
+}
+
+.div-about p:nth-child(1) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-400);
+}
+
+.div-about p:nth-child(2) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--color-400);
+}
+
+.div-about p:nth-child(3) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--color-400);
+}
+
+.div-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.div-top-section-users {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.section-users {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 50%;
+}
+
+.select-menu {
+  text-align: center;
+  width: 282px;
+  height: 32px;
+  border: 1px solid var(--color-400);
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--color-400);
+  background-color: var(--color-500);
+}
+
+.titleRemoveModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--color-400);
+}

@@ -1,0 +1,162 @@
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-500);
+  width: 506px;
+  position: relative;
+  border-radius: 8px;
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+
+.formbase {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 39px;
+}
+
+.formbase > h2 {
+  font-size: 40px;
+}
+
+.formbase > button {
+  margin-top: 21px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 38px;
+  height: 32px;
+  padding: 4px 14px;
+  font-size: var(--font-size4);
+  font-weight: var(--font-weight1);
+  background-color: #e9ecef;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.divButtonsRemove {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.cancelButton {
+  position: absolute;
+  bottom: 32px;
+  right: 132px;
+}
+
+.showPostHeader {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.showPostFeet {
+  width: 100%;
+}
+
+formulario {
+  height: 100%;
+}
+
+.topSectionEye {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.divLeftEye {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.divRightEye {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.bottomSectionEye {
+  background: #f8f8f8;
+}
+
+.ulBottomEye {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 43px 33px;
+  height: 290px;
+  background: #f8f8f8;
+  overflow: scroll;
+}
+
+.liBottomEye {
+  display: flex;
+  flex-direction: column;
+  padding: 29px;
+  gap: 9px;
+  min-width: 306px;
+  height: 100%;
+  background: var(--color-500);
+  border-bottom: 1px solid var(--color-100);
+  list-style: none;
+}
+
+.divAboutEye {
+  height: 33%;
+}
+
+.divButtonEye {
+  display: flex;
+  justify-content: center;
+  height: 33%;
+}
+
+.pDescriptionText {
+  width: 289px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-400);
+}
+
+.hidden {
+  display: none;
+}

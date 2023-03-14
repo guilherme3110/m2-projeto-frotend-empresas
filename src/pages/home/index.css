@@ -1,0 +1,126 @@
+#header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+#div-sections {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+#left-section {
+  background-image: url(../../img/Rectangle\ 6.png);
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 743px;
+}
+
+#right-section {
+  width: 550px;
+  height: 743px;
+  overflow: auto;
+  background: #f8f8f8;
+}
+
+#cardList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 22px 33px;
+  width: 90%;
+  height: 134.99px;
+  list-style: none;
+  background-color: var(--color-500);
+  border-bottom: 1px solid var(--color-100);
+}
+
+.button-default2 {
+  font-size: 800;
+  color: var(--color-100);
+  width: 150px;
+  padding: 6px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.titleh2-right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 52.18px;
+  padding: 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-500);
+  margin-bottom: 25px;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  width: 100%;
+  background: var(--color-100) url('../../img/Arrow.png') 95.5% 50% no-repeat;
+}
+
+@media (max-width: 600px) {
+  #header {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+    padding: 0px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.200);
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+
+  #left-section {
+    width: 0;
+    visibility: hidden;
+  }
+
+  #cardList {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #card {
+    width: 341px;
+    height: 211px;
+    list-style: none;
+    background-color: var(--color-500);
+    border-bottom: 1px solid var(--color-100);
+  }
+}
